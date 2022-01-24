@@ -19,6 +19,11 @@ export class ContaCorrente{
         return this._saldo;
     }
 
+     constructor(cliente, agencia){
+         this._cliente = cliente;
+         this.agencia = agencia;
+     }
+
     sacar(valor){
         if(valor > this._saldo){
             console.log("nao posso sacar");
