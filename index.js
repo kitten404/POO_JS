@@ -30,3 +30,9 @@ console.log("estado final das cc/s");
 console.log(contaCorrente);
 console.log(contaCorrente2);
 
+console.log(contaCorrente2.cliente);
+console.log(contaCorrente2.saldo);
+
+//contaCorrente2.saldo =4000;
+
+
